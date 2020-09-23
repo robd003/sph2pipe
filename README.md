@@ -2,7 +2,7 @@
 README File for "sph2pipe"
 --------------------------
 
-1. Introduction
+# 1. Introduction
 
 The "sph2pipe" program was created by the Linguistic Data Consortium
 to provide greater flexibility and ease of use for SPHERE-formatted
@@ -90,7 +90,7 @@ conversion.  If you have a need for this, try the "SoX" package -- see
 under "Licensing" below for more information about SoX.
 
 
-2. Installation
+# 2. Installation
 
 Wintel users can simply download the executable file (sph2pipe.exe) that
 has been precompiled for MS Windows/DOS systems, and start using it.
@@ -125,7 +125,7 @@ change a few details in sph_convert.h, but we hope the code is generic
 enough (POSIX compliant) to work anywhere.
 
 
-3. Usage
+# 3. Usage
 
 The command line syntax is:
 
@@ -266,7 +266,7 @@ normally won't pose any problem: within a given corpus, all files tend
 to have the same properties.
 
 
-4. Version specific information
+# 4. Version specific information
 
 This version will only convert one sphere file in one run, and must
 read that file directly from disk or cdrom (it does not accept input
