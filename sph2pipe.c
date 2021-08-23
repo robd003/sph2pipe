@@ -105,6 +105,7 @@
 
 #include "sph_convert.h"
 #include "ulaw.h"
+#include <getopt.h>
 
 static double bgnsec, endsec;
 static int bgnsamp, endsamp;

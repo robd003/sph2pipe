@@ -46,6 +46,10 @@ int shortenXtract( void );       /* handles data i/o for shortened files */
 int copySamples( void );         /* handles data i/o for normal files */
 void demux( int );               /* demultiplex 2-channel buffer in-place */
 
+
+unsigned char pcm2alaw( short int pcmval );
+unsigned char pcm2ulaw( short int sample );
+
 /* Global variables:
  */
 
